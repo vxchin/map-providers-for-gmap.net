@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiandituMapProvider", "TiandituMapProvider\TiandituMapProvider.csproj", "{D920F1DC-A104-4222-8D51-B7CE61FDC50A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{24AE4A86-A162-4D25-8A31-4AD005F590F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.WindowsForms", "Demo\Demo.WindowsForms\Demo.WindowsForms.csproj", "{22059202-9824-4CAF-8671-5E9B33F3EADF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D920F1DC-A104-4222-8D51-B7CE61FDC50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D920F1DC-A104-4222-8D51-B7CE61FDC50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D920F1DC-A104-4222-8D51-B7CE61FDC50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D920F1DC-A104-4222-8D51-B7CE61FDC50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22059202-9824-4CAF-8671-5E9B33F3EADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22059202-9824-4CAF-8671-5E9B33F3EADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22059202-9824-4CAF-8671-5E9B33F3EADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22059202-9824-4CAF-8671-5E9B33F3EADF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22059202-9824-4CAF-8671-5E9B33F3EADF} = {24AE4A86-A162-4D25-8A31-4AD005F590F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E541704-9FAB-42CB-8737-A84CD9BB3E57}
+	EndGlobalSection
+EndGlobal
