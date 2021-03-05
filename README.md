@@ -38,7 +38,9 @@ public static class TiandituMapProviders
 }
 ```
 
-项目中包含了 Windows Forms 的示例项目，使用前请在 `app.config` 中配置 `tianditu:appKey`。
+## 示例说明
+
+项目中包含了 Windows Forms 的示例项目，使用前请设置 `Program.cs` 中的 API Key。
 
 ## 依赖的 Nuget 包
 

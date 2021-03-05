@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiandituMapProvider", "TiandituMapProvider\TiandituMapProvider.csproj", "{D920F1DC-A104-4222-8D51-B7CE61FDC50A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiandituMapProvider", "src\TiandituMapProvider\TiandituMapProvider.csproj", "{D920F1DC-A104-4222-8D51-B7CE61FDC50A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{24AE4A86-A162-4D25-8A31-4AD005F590F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.WindowsForms", "Demo\Demo.WindowsForms\Demo.WindowsForms.csproj", "{22059202-9824-4CAF-8671-5E9B33F3EADF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.WindowsForms", "src\Demo\Demo.WindowsForms\Demo.WindowsForms.csproj", "{22059202-9824-4CAF-8671-5E9B33F3EADF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3A1247B-4C0A-4198-BF45-670DBB363638}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

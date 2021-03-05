@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Configuration;
 using System.Windows.Forms;
 
 namespace GMap.NET.MapProviders.Tianditu.Demo.WindowsForms
@@ -15,8 +14,8 @@ namespace GMap.NET.MapProviders.Tianditu.Demo.WindowsForms
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            TiandituMapProviders.SetApiKey(ConfigurationManager.AppSettings["tianditu:apiKey"]);
-            
+            TiandituMapProviders.SetApiKey("API_KEY_GOES_HERE");
+
             Application.Run(new MainForm());
         }
     }
