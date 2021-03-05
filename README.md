@@ -44,7 +44,7 @@ public static class TiandituMapProviders
 
 ## 依赖的 Nuget 包
 
-* GMap.NET.Core [2.0.1,)
+* GMap.NET.Core (>= 2.0.1)
 
 ## 开发人员
 
