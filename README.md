@@ -3,7 +3,7 @@
 ## 介绍
 一组用于 [GMap.NET](https://github.com/judero01col/GMap.NET) 的自定义地图提供程序，包括：
 
-- TiandituMapProviders：“天地图”地图提供程序，
+- TiandituMapProviders：“天地图”地图提供程序
 - AutoNaviMapProviders：“高德地图”地图提供程序
 
 ## 高德地图提供程序使用说明
