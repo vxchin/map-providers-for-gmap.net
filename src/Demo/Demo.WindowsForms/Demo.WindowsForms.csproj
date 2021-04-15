@@ -10,6 +10,7 @@
     <PackageReference Include="System.Data.SQLite" Version="1.0.113.7" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\AutoNaviMapProvider\AutoNaviMapProvider.csproj" />
     <ProjectReference Include="..\..\TiandituMapProvider\TiandituMapProvider.csproj" />
   </ItemGroup>
 </Project>

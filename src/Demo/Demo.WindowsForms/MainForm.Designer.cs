@@ -30,6 +30,8 @@ namespace GMap.NET.MapProviders.Tianditu.Demo.WindowsForms
         private void InitializeComponent()
         {
             this.MainMap = new GMap.NET.WindowsForms.GMapControl();
+            this.lbMapProviders = new System.Windows.Forms.ListBox();
+            this.lblInfo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // MainMap
@@ -58,22 +60,46 @@ namespace GMap.NET.MapProviders.Tianditu.Demo.WindowsForms
             this.MainMap.Size = new System.Drawing.Size(1024, 641);
             this.MainMap.TabIndex = 0;
             this.MainMap.Zoom = 10D;
+            this.MainMap.Load += new System.EventHandler(this.MainMap_Load);
+            // 
+            // lbMapProviders
+            // 
+            this.lbMapProviders.FormattingEnabled = true;
+            this.lbMapProviders.ItemHeight = 12;
+            this.lbMapProviders.Location = new System.Drawing.Point(12, 33);
+            this.lbMapProviders.Name = "lbMapProviders";
+            this.lbMapProviders.Size = new System.Drawing.Size(180, 100);
+            this.lbMapProviders.TabIndex = 2;
+            this.lbMapProviders.SelectedIndexChanged += new System.EventHandler(this.lbMapProviders_SelectedIndexChanged);
+            // 
+            // lblInfo
+            // 
+            this.lblInfo.AutoSize = true;
+            this.lblInfo.Location = new System.Drawing.Point(12, 620);
+            this.lblInfo.Name = "lblInfo";
+            this.lblInfo.Size = new System.Drawing.Size(0, 12);
+            this.lblInfo.TabIndex = 3;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1024, 641);
+            this.Controls.Add(this.lblInfo);
+            this.Controls.Add(this.lbMapProviders);
             this.Controls.Add(this.MainMap);
             this.Name = "MainForm";
-            this.Text = "Tianditu Map Providers for GMap.NET";
+            this.Text = "GMap.NET Providers Demo";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private NET.WindowsForms.GMapControl MainMap;
+        private System.Windows.Forms.ListBox lbMapProviders;
+        private System.Windows.Forms.Label lblInfo;
     }
 }
 

@@ -1,9 +1,27 @@
-# Tianditu Map Provider for GMap.NET
+# Custom Map Providers for GMap.NET
 
 ## 介绍
-用于 [GMap.NET](https://github.com/judero01col/GMap.NET) 的天地图地图提供程序
+一组用于 [GMap.NET](https://github.com/judero01col/GMap.NET) 的自定义地图提供程序，包括：
 
-## 使用说明
+- TiandituMapProviders：“天地图”地图提供程序，
+- AutoNaviMapProviders：“高德地图”地图提供程序
+
+## 高德地图提供程序使用说明
+
+直接将 `GMapControl` 控件的 `MapProvider` 属性设置为需要的地图提供程序即可。地图提供程序包括：
+
+1. `VectorMap`：矢量地图
+2. `ImageMap`: 卫星地图
+
+```csharp
+    public static class AutoNaviMapProviders
+    {
+        public static AutoNaviVectorMapProvider VectorMap => AutoNaviVectorMapProvider.Instance;
+        public static AutoNaviImageMapProvider ImageMap => AutoNaviImageMapProvider.Instance;
+    }
+```
+
+## 天地图提供程序使用说明
 
 典型的使用过程如下：
 
@@ -40,7 +58,7 @@ public static class TiandituMapProviders
 
 ## 示例说明
 
-项目中包含了 Windows Forms 的示例项目，使用前请设置 `Program.cs` 中的 API Key。
+项目中包含了 Windows Forms 的示例项目，使用前请设置环境变量 `TIANDITU_APIKEY`，或者在 `Program.cs` 中设置 API Key。
 
 ## 依赖的 Nuget 包
 

@@ -14,7 +14,9 @@ namespace GMap.NET.MapProviders.Tianditu.Demo.WindowsForms
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            TiandituMapProviders.SetApiKey("API_KEY_GOES_HERE");
+            var apiKey = Environment.GetEnvironmentVariable("TIANDITU_APIKEY");
+            
+            TiandituMapProviders.SetApiKey(apiKey);
 
             Application.Run(new MainForm());
         }

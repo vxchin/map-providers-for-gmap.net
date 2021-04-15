@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiandituMapProvider", "src\TiandituMapProvider\TiandituMapProvider.csproj", "{D920F1DC-A104-4222-8D51-B7CE61FDC50A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoNaviMapProvider", "src\AutoNaviMapProvider\AutoNaviMapProvider.csproj", "{D476C50D-10A8-4FEA-8CCD-E03C25AD07FD}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{24AE4A86-A162-4D25-8A31-4AD005F590F3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.WindowsForms", "src\Demo\Demo.WindowsForms\Demo.WindowsForms.csproj", "{22059202-9824-4CAF-8671-5E9B33F3EADF}"
@@ -25,6 +27,10 @@ Global
 		{D920F1DC-A104-4222-8D51-B7CE61FDC50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D920F1DC-A104-4222-8D51-B7CE61FDC50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D920F1DC-A104-4222-8D51-B7CE61FDC50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D476C50D-10A8-4FEA-8CCD-E03C25AD07FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D476C50D-10A8-4FEA-8CCD-E03C25AD07FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D476C50D-10A8-4FEA-8CCD-E03C25AD07FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D476C50D-10A8-4FEA-8CCD-E03C25AD07FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{22059202-9824-4CAF-8671-5E9B33F3EADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{22059202-9824-4CAF-8671-5E9B33F3EADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22059202-9824-4CAF-8671-5E9B33F3EADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
