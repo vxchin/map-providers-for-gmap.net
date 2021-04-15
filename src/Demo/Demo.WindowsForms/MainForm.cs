@@ -9,7 +9,7 @@ namespace GMap.NET.MapProviders.Tianditu.Demo.WindowsForms
         {
             InitializeComponent();
             lbMapProviders.Items.AddRange(new GMapProvider[]
-            {,
+            {
                 AutoNaviMapProviders.ImageMap,
                 AutoNaviMapProviders.VectorMap,
                 TiandituMapProviders.ImageMap,
